@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+}
+section {
+    position: relative;
+    width: 1000px;
+    margin-left: 250px;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8e8e8;
+}
+section .box.box1 {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    /*background: rgb(119, 70, 70);*/
+    
+}
+section .box.box1 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+section .box.box2 {
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(70, 119, 86);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;
+}
+section .box.box2 h2 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    
+}
+section .box.box3 {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    /*background: rgb(121, 13, 13);*/
+    
+}
+section .box.box3 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+section .box.box4 {
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(55, 116, 165);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;
+}
+section .box.box4 h2 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    
+}    
+
+section .box.box5 {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    /*background: rgb(62, 155, 179);
+    clip-path: circle(50% at 50% 50%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;*/
+    
+}
+section .box.box5 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+section .box.box6 {
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(62, 85, 70);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;
+}
+section .box.box6 h2 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    
+}
+    
+
+section .box.box7 {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    /*background: rgb(95, 223, 56);*/
+    
+}
+section .box.box7 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+section .box.box8 {
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(146, 126, 70);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;
+}
+section .box.box8 h2 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    
+}    
+
+section .box.box9 {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    /*background: rgb(104, 31, 133);*/
+    
+}
+section .box.box9 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+section .box.box10 {
+    height: 200px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(18, 8, 133);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    flex-direction: column;
+    animation: animate 2s ease-in-out infinite ;
+
+    
+}
+section .box.box10 h2 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-weight: bold;
+    
+}
+section .box.box11 {
+    
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    /*background: rgb(70, 105, 119);*/
+    
+}
+section .box.box11 h2 {
+    font-size: 2em;
+    color: #020202;
+    /*clip-path: circle(50% at 50% 50%);*/
+    flex-direction: column;
+    animation: animate 6s ease-in-out infinite ;
+}
+@keyframes animate {
+    0%,45% {
+        transform: translateY(-70%);
+    }
+    55%,90% {
+        transform: translateY(70%);
+    }
+    100% {
+        transform: translateY(-70%);
+    }
+}
